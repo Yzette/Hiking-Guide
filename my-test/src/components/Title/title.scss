@@ -1,0 +1,15 @@
+.title {
+    position: relative;
+    z-index: 400;
+
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        
+        .socialMedia_text {
+            color: white;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+    }
+}
