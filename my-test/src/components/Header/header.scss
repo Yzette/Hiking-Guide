@@ -1,7 +1,9 @@
 .header {
     width: 95%;
     margin: auto;
-    margin-top: 64px;
+    position: relative;
+    z-index: 400;
+    padding-top: 64px;
 
     .header_logo {
         float: left;
