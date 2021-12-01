@@ -1,0 +1,19 @@
+.header {
+    margin: 64px 0 0 80px;
+
+    .header_logo {
+        float: left;
+    }
+
+    .navBar {
+        display: flex;
+        justify-content: space-around;
+        
+        
+        .navBar_item {
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 
 import logo from '../../assets/icons/Logo.svg';
-import cart from '../../assets/icons/cart.png';
+
 
 import './header.scss';
 
@@ -16,10 +16,6 @@ const Header = () => (
             <img src={logo} alt="website logo" />
         </a>
         <NavBar />
-        <a className="header_account">
-            <img src={cart} alt="account icon" />
-            Account
-        </a>
     </header>
 
 );
