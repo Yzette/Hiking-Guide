@@ -12,7 +12,7 @@ import './header.scss';
 
 const Header = () => (
     <header className="header">
-        <a className="header_logo">
+        <a href="" className="header_logo">
             <img src={logo} alt="website logo" />
         </a>
         <NavBar />

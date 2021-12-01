@@ -1,0 +1,35 @@
+.footer {
+    width: 85%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+
+    .navFooter {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+
+        .navFooter_left {
+
+             .navFooter_left_title {
+                 color: #FBD784;
+             }
+
+             .navFooter_left_items {
+                 display: flex;
+                 flex-direction: column;
+             }
+        }
+
+        .navFooter_right {
+
+            .navFooter_right_title {
+                color: #FBD784;
+            }
+            .navFooter_right_items {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
