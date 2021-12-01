@@ -1,5 +1,6 @@
 .app {
   position: relative;
+  background-color: #0B1D26;
   
 
   a {
@@ -26,7 +27,13 @@
 
   .app_filter1 {
     position: absolute;
+    z-index: 280;
+  }
+  
+  .app_filter2 {
+    position: absolute;
     z-index: 350;
+    margin-top: 900px;
   }
 
 }
