@@ -3,21 +3,44 @@
     margin:auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    .footer_left {
+        display: flex;
+        flex-direction: column;
+        
+        .footer_left_top {
+            color: white;
+
+            .footer_left_link {
+                line-height: 32px;
+            }
+        }
+
+        .footer_left_bottom {
+            color: white;
+            opacity: 0.5;
+        }
+    }
 
     .navFooter {
         display: flex;
         width: 30%;
         justify-content: space-between;
+    
 
         .navFooter_left {
 
              .navFooter_left_title {
                  color: #FBD784;
+                 font-size: 24px;
              }
 
              .navFooter_left_items {
                  display: flex;
                  flex-direction: column;
+                 line-height: 32px;
+                 font-size: 18px;
              }
         }
 
@@ -25,10 +48,14 @@
 
             .navFooter_right_title {
                 color: #FBD784;
+                font-size: 24px;
             }
             .navFooter_right_items {
                 display: flex;
                 flex-direction: column;
+                color: white;
+                line-height: 32px;
+                font-size: 18px;
             }
         }
     }
