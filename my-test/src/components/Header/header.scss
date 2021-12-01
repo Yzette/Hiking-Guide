@@ -1,13 +1,17 @@
 .header {
-    margin: 64px 0 0 80px;
+    width: 95%;
+    margin: auto;
+    margin-top: 64px;
 
     .header_logo {
         float: left;
+        margin-right: 300px;
+
     }
 
     .navBar {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         
         
         .navBar_item {
