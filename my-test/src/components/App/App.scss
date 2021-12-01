@@ -1,10 +1,32 @@
-.App {
+.app {
+  position: relative;
   
-  background-color: #354147;
 
   a {
     text-decoration: none;
     color: white;
+  }
+
+  .app_image1 {
+    position: absolute;
+    z-index: 100;
+  }
+
+  .app_image2 {
+    position: absolute;
+    z-index: 200;
+    margin-top: 400px;
+  }
+
+  .app_image3 {
+    position: absolute;
+    z-index: 300;
+    margin-top: 600px;
+  }
+
+  .app_filter1 {
+    position: absolute;
+    z-index: 350;
   }
 
 }
