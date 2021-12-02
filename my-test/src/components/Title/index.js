@@ -15,7 +15,7 @@ useEffect(() => {
         
         const totalScroll = document.documentElement.scrollTop;
         const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scroll = `${totalScroll / windowHeight}`;
+        const scroll = `${totalScroll / windowHeight * 100}%`;
 
         setScroll(scroll);
     }
