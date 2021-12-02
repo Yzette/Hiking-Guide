@@ -1,0 +1,229 @@
+.home {
+    z-index: 400;
+    position: relative;
+    
+    
+    margin-top: 900px;
+
+    .firstContent {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-bottom: 200px;
+
+        
+        
+        .firstContent_introduction {
+            width: 40%;
+            
+            margin-top: 3%;
+            
+            .firstContent_introduction_top {
+                display: flex;
+                align-items: center;
+                font-family: 'Poppins', sans-serif;
+
+                .firstContent_introduction_top_one {
+                    float: left;
+                    position: absolute;
+                }
+
+                .firstContent_introduction_top_line {
+                    width: 72px;
+                    height: 2px;
+                    background: #FBD784 0% 0% no-repeat padding-box;
+                    padding-right: 32px;
+
+                }
+
+                .firstContent_introduction_top_subtitle {
+                    color: #FBD784;
+                    text-transform: uppercase;
+                    padding-left: 32px;
+                    font-size: 18px;
+                    letter-spacing: 6px;
+                }
+            }
+
+            .firstContent_introduction_medium {
+                
+                color: white;
+
+                .firstContent_introduction_medium_title {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 64px;
+                    line-height: 76.8px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+            }
+
+            .firstContent_introduction_bottom {
+                display: flex;
+                align-items: center;
+                color: #FBD784;
+                font-family: 'Poppins', sans-serif;
+
+                p {
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        
+    }
+
+    .secondContent {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-bottom: 200px;
+
+        
+        
+        .secondContent_introduction {
+            width: 40%;
+            
+            margin-top: 3%;
+            
+            .secondContent_introduction_top {
+                display: flex;
+                align-items: center;
+                font-family: 'Poppins', sans-serif;
+
+                .secondContent_introduction_top_two {
+                    float: left;
+                    position: absolute;
+                }
+
+                .secondContent_introduction_top_line {
+                    width: 72px;
+                    height: 2px;
+                    background: #FBD784 0% 0% no-repeat padding-box;
+                    padding-right: 32px;
+
+                }
+
+                .secondContent_introduction_top_subtitle {
+                    color: #FBD784;
+                    text-transform: uppercase;
+                    padding-left: 32px;
+                    font-size: 18px;
+                    letter-spacing: 6px;
+                }
+            }
+
+            .secondContent_introduction_medium {
+                
+                color: white;
+
+                .secondContent_introduction_medium_title {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 64px;
+                    line-height: 76.8px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+            }
+
+            .secondContent_introduction_bottom {
+                display: flex;
+                align-items: center;
+                color: #FBD784;
+                font-family: 'Poppins', sans-serif;
+
+                p {
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        
+    }
+
+    .thirdContent {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-bottom: 200px;
+
+        
+        
+        .thirdContent_introduction {
+            width: 40%;
+            
+            margin-top: 3%;
+            
+            .thirdContent_introduction_top {
+                display: flex;
+                align-items: center;
+                font-family: 'Poppins', sans-serif;
+
+                .thirdContent_introduction_top_three {
+                    float: left;
+                    position: absolute;
+                }
+
+                .thirdContent_introduction_top_line {
+                    width: 72px;
+                    height: 2px;
+                    background: #FBD784 0% 0% no-repeat padding-box;
+                    padding-right: 32px;
+
+                }
+
+                .thirdContent_introduction_top_subtitle {
+                    color: #FBD784;
+                    text-transform: uppercase;
+                    padding-left: 32px;
+                    font-size: 18px;
+                    letter-spacing: 6px;
+                }
+            }
+
+            .thirdContent_introduction_medium {
+                
+                color: white;
+
+                .thirdContent_introduction_medium_title {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 64px;
+                    line-height: 76.8px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+            }
+
+            .thirdContent_introduction_bottom {
+                display: flex;
+                align-items: center;
+                color: #FBD784;
+                font-family: 'Poppins', sans-serif;
+
+                p {
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        
+    }
+}

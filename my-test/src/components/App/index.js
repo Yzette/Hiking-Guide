@@ -9,6 +9,7 @@ import filter2 from '../../assets/images/filter2.png';
 import Header from '../Header';
 import Footer from '../Footer';
 import Title from '../Title';
+import Home from '../Home';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <img className="app_filter2" src={filter2} alt="an other filter on pictures" />
       <Header />
       <Title />
+      <Home />
       <Footer />
     </div>
   );
