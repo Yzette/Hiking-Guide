@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        position: fixed;
         font-size: 18px;
         
         
@@ -88,9 +88,11 @@
     }
 
     .slider {
-        width: 5%;
+        width: 3%;
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        right: 5%;
 
         .slider_left {
             display: flex;
@@ -98,6 +100,24 @@
             align-items: flex-end;
             color: white;
             font-family: 'Poppins', sans-serif;
+        }
+
+        .slider_right {
+
+            #progress_bar_container {
+                width: 5px;
+                height: 300px;
+                border-radius: 3px;
+                background: white 0% 0% no-repeat padding-box;
+                opacity: 0.3;
+                
+                #progress_bar {
+                    background: linear-gradient(to top, white, #FBD784);
+                    transform-origin: top;
+                    
+                }
+            }
+            
         }
     }
 }

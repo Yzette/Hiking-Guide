@@ -9,20 +9,26 @@
   }
 
   .app_image1 {
+    max-width: 100%;
     position: absolute;
     z-index: 100;
+    
   }
 
   .app_image2 {
+    max-width: 100%;
     position: absolute;
     z-index: 200;
     margin-top: 500px;
+    
   }
 
   .app_image3 {
+    max-width: 100%;
     position: absolute;
     z-index: 300;
     margin-top: 810px;
+    
   }
 
   .app_filter1 {
