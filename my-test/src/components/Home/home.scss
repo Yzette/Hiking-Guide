@@ -1,0 +1,80 @@
+.home {
+    z-index: 400;
+    position: relative;
+    
+    
+    margin-top: 900px;
+
+    .firstContent {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        
+        
+        .firstContent_introduction {
+            width: 40%;
+            
+            margin-top: 3%;
+            
+            .firstContent_introduction_top {
+                display: flex;
+                align-items: center;
+                font-family: 'Poppins', sans-serif;
+
+                .firstContent_introduction_top_one {
+                    float: left;
+                    position: absolute;
+                }
+
+                .firstContent_introduction_top_line {
+                    width: 72px;
+                    height: 2px;
+                    background: #FBD784 0% 0% no-repeat padding-box;
+                    padding-right: 32px;
+
+                }
+
+                .firstContent_introduction_top_subtitle {
+                    color: #FBD784;
+                    text-transform: uppercase;
+                    padding-left: 32px;
+                    font-size: 18px;
+                    letter-spacing: 6px;
+                }
+            }
+
+            .firstContent_introduction_medium {
+                
+                color: white;
+
+                .firstContent_introduction_medium_title {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 64px;
+                    line-height: 76.8px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+            }
+
+            .firstContent_introduction_bottom {
+                display: flex;
+                align-items: center;
+                color: #FBD784;
+                font-family: 'Poppins', sans-serif;
+
+                p {
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        
+    }
+}
