@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        position: fixed;
         font-size: 18px;
         
         
@@ -88,9 +88,11 @@
     }
 
     .slider {
-        width: 5%;
+        width: 3%;
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        right: 5%;
 
         .slider_left {
             display: flex;
