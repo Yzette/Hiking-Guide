@@ -23,7 +23,7 @@ const FirstContent = () => (
                 <img src={arrow} alt="arrow icon read more" />
             </div>
         </div>
-        <img className="firstContent_introduction_image" src={hiker} alt="hiker picture" />
+        <img className="firstContent_image" src={hiker} alt="hiker picture" />
     </div>
 );
 

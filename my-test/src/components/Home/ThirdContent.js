@@ -23,7 +23,7 @@ const ThirdContent = () => (
                 <img src={arrow} alt="arrow icon read more" />
             </div>
         </div>
-        <img className="thirdContent_introduction_image" src={compass} alt="compass picture" />
+        <img className="thirdContent_image" src={compass} alt="compass picture" />
     </div>
 );
 
