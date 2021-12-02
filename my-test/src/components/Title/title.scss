@@ -1,6 +1,12 @@
 .title {
     position: relative;
-    
+    // je souhaitais faire en sorte que les liens vers les reseaux sociaux
+    // et le slider reste en fixed mais cela fixe aussi le titre que j'aurais voulu
+    // positionné derrière la colline avec un z index inférieur
+    // position: fixed;
+    // top: 160px;
+    // left: 5%;
+    // right: 5%;
     width: 90%;
     margin: auto;
     z-index: 400;
@@ -33,7 +39,7 @@
     .mainTitle {
         width: 60%;
         margin:auto;
-        
+      
         
 
         .mainTitle_top {
