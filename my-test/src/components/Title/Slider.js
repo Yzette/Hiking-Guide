@@ -3,7 +3,7 @@ import React from "react";
 import slider from '../../assets/icons/Slider.png';
 
 
-const Slider = () => (
+const Slider = ({ scroll }) => (
     <div className="slider">
         <div className="slider_left">
             <p>Start</p>
@@ -12,7 +12,9 @@ const Slider = () => (
             <p>03</p>
         </div>
         <div className="slider_right">
-            <img src={slider} alt="progress bar" />
+            <div id="progress_bar_container">
+                <div className="progress_bar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}}></div>
+            </div>
         </div>
     </div>
 );

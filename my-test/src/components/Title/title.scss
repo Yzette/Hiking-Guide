@@ -101,5 +101,23 @@
             color: white;
             font-family: 'Poppins', sans-serif;
         }
+
+        .slider_right {
+
+            #progress_bar_container {
+                width: 5px;
+                height: 300px;
+                border-radius: 3px;
+                background: white 0% 0% no-repeat padding-box;
+                opacity: 0.3;
+                
+                #progress_bar {
+                    background: linear-gradient(to top, white, #FBD784);
+                    transform-origin: top;
+                    
+                }
+            }
+            
+        }
     }
 }
