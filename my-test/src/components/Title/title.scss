@@ -1,0 +1,103 @@
+.title {
+    position: relative;
+    // je souhaitais faire en sorte que les liens vers les reseaux sociaux
+    // et le slider reste en fixed mais cela fixe aussi le titre que j'aurais voulu
+    // positionné derrière la colline avec un z index inférieur
+    // position: fixed;
+    // top: 160px;
+    // left: 5%;
+    // right: 5%;
+    width: 90%;
+    margin: auto;
+    z-index: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    align-items: center;
+
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        font-size: 18px;
+        
+        
+        .socialMedia_text {
+            color: white;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            padding-bottom: 25px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        img {
+            padding-bottom: 20px;
+        }
+    }
+
+    .mainTitle {
+        width: 60%;
+        margin:auto;
+      
+        
+
+        .mainTitle_top {
+            display: flex;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+
+            .line {
+                width: 72px;
+                height: 2px;
+                background: #FBD784 0% 0% no-repeat padding-box;
+                
+            }
+
+            .mainTitle_top_subtitle {
+                color: #FBD784;
+                text-transform: uppercase;
+                padding-left: 32px;
+                font-size: 18px;
+                letter-spacing: 6px;
+            }
+        }
+
+        .mainTitle_medium {
+            text-transform: capitalize;
+            color: white;
+            font-size: 88px;
+            font-family: 'Playfair Display', serif;
+            line-height: 100px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .mainTitle_bottom {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 20px;
+            
+            .mainTitle_bottom_text {
+                padding-right: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .slider {
+        width: 5%;
+        display: flex;
+        justify-content: space-between;
+
+        .slider_left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
