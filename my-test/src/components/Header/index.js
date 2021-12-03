@@ -11,7 +11,7 @@ import './header.scss';
 // et unique je ne vais pas installer react-router-dom qui me permettrait d'utiliser Link
 
 const Header = () => (
-    <header className="header">
+    <header className="header" id="start">
         <a href="" className="header_logo">
             <img src={logo} alt="website logo" />
         </a>
