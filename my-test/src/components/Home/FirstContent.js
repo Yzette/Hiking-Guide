@@ -6,7 +6,7 @@ import one from '../../assets/icons/one.png';
 import arrow from '../../assets/icons/arrow-more.png';
 
 const FirstContent = () => (
-    <div className="firstContent">
+    <div className="firstContent" id="01">
         
         <div className="firstContent_introduction">
             <div className="firstContent_introduction_top">

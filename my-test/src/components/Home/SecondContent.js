@@ -6,7 +6,7 @@ import two from '../../assets/icons/two.png';
 import arrow from '../../assets/icons/arrow-more.png';
 
 const SecondContent = () => (
-    <div className="secondContent">
+    <div className="secondContent" id="02">
         <img className="secondContent_image" src={view} alt="a nice view picture" />
         <div className="secondContent_introduction">
             <div className="secondContent_introduction_top">

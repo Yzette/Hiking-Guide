@@ -6,7 +6,7 @@ import three from '../../assets/icons/three.png';
 import arrow from '../../assets/icons/arrow-more.png';
 
 const ThirdContent = () => (
-    <div className="thirdContent">
+    <div className="thirdContent" id="03">
         
         <div className="thirdContent_introduction">
             <div className="thirdContent_introduction_top">

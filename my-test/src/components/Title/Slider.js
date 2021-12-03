@@ -1,15 +1,47 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-import slider from '../../assets/icons/Slider.png';
 
 
 const Slider = ({ scroll }) => (
     <div className="slider">
         <div className="slider_left">
-            <p>Start</p>
-            <p>01</p>
-            <p>02</p>
-            <p>03</p>
+            <Link 
+            activeClass="active" 
+            to="start" 
+            spy={true} 
+            smooth={true} 
+            offset={-70} 
+            duration={500}>
+            Start
+            </Link>
+            <Link 
+            activeClass="active" 
+            to="01" 
+            spy={true} 
+            smooth={true} 
+            offset={50} 
+            duration={500}>
+            01
+            </Link>
+            <Link 
+            activeClass="active" 
+            to="02" 
+            spy={true} 
+            smooth={true} 
+            offset={50} 
+            duration={500}>
+            02
+            </Link>
+            <Link 
+            activeClass="active" 
+            to="03" 
+            spy={true} 
+            smooth={true} 
+            offset={50} 
+            duration={500}>
+            03
+            </Link>
         </div>
         <div className="slider_right">
             <div id="progress_bar_container">
